@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.educare.youthapp",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:7F:0F:7C:1E:5A:6D:7E:8F:9A:0B:1C:2D:3E:4F:5A:6B:7C:8D:9E:0F:1A:2B:3C:4D:5E:6F:7A:8B:9C"
+      ]
+    }
+  }
+]

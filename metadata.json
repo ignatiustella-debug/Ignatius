@@ -1,0 +1,6 @@
+{
+  "name": "Educare — Education Center for Youth",
+  "description": "Premier 100% tuition-free youth education center empowering ages 6–18 in STEM, creative arts, experimental sciences, and leadership with interactive courses, timetable scheduling, and free enrollment.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

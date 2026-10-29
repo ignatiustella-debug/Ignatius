@@ -1,0 +1,66 @@
+{
+  "packageId": "com.educare.youthapp",
+  "host": "educare.aistudio.app",
+  "name": "Educare — Education Center for Youth",
+  "launcherName": "Educare",
+  "display": "standalone",
+  "themeColor": "#1c1917",
+  "themeColorDark": "#0c0a09",
+  "navigationColor": "#1c1917",
+  "navigationColorDark": "#0c0a09",
+  "navigationDividerColor": "#292524",
+  "navigationDividerColorDark": "#292524",
+  "backgroundColor": "#fafaf9",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "/pwa-512x512.png",
+  "maskableIconUrl": "/pwa-maskable-512x512.png",
+  "appVersionName": "2.4.0",
+  "appVersionCode": 24,
+  "shortcuts": [
+    {
+      "name": "Robo Mech",
+      "short_name": "RoboMech",
+      "url": "/?app=robo-mech",
+      "icon": "/pwa-192x192.png"
+    },
+    {
+      "name": "Advert Clinic",
+      "short_name": "Advert",
+      "url": "/?app=advert-clinic",
+      "icon": "/pwa-192x192.png"
+    },
+    {
+      "name": "Bible Quiz",
+      "short_name": "BibleQuiz",
+      "url": "/?app=bible-quiz",
+      "icon": "/pwa-192x192.png"
+    },
+    {
+      "name": "Code Rise",
+      "short_name": "CodeRise",
+      "url": "/?app=code-rise",
+      "icon": "/pwa-192x192.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": false
+    },
+    "playBilling": {
+      "enabled": false
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "signing": {
+    "file": "android.keystore",
+    "alias": "educare"
+  }
+}
